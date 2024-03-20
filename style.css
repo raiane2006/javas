@@ -23,5 +23,25 @@ body {
       alingn-itens: center;
       max-wildth: 1200px;
       wildth: 100%;
-      margin: @ auto;
-}
+      margin: 0 auto;
+  }
+
+  .titulo-principal{
+      text-align:  left;
+      width: 100%;
+      font-size:  32px;
+  }
+
+  .titulo-principal span{
+      color: var(--verde);
+  }
+
+  .botao{
+      font-family: "crakra petch", sans-serif;
+      background-color: var(--botao-inativo);
+      color: var(--branco);
+      display: flex;
+      justify-content: center;
+      padding: 1em;
+      font-size: 18;
+  }
